@@ -1,11 +1,12 @@
 .dropdown {
     display: inline-block;
     position: relative;
+
   }
   .dropdown-content {
     display: none;
     position: absolute;
-    width: 100%;
+    width: 180%;
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
   }
@@ -21,4 +22,7 @@
   .dropdown-content a:hover {
     color: #FFFFFF;
     background-color: #00A4BD;
+  }
+  .carrito{
+    margin-right: 20px;
   }
