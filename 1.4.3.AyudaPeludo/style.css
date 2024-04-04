@@ -1,45 +1,10 @@
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  width: 180%;
-  overflow: auto;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown-content a {
-  display: block;
-  color: #000000;
-  padding: 5px;
-  text-decoration: none;
-}
-.dropdown-content a:hover {
-  color: #FFFFFF;
-  background-color: #00A4BD;
-}
-.carrito{
-  margin-right: 20px;
-}
-.div{
-  float: left;
-  margin: 10px;
-  text-align: center;
-}
-.bloques{
-  margin-left: 70px;
-}
+
 .search-container {
   position: fixed;
   top: 90px;
   right: 10px;
   border: 2px solid pink;
   border-radius: 5px;
-  background-color: white;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -47,7 +12,7 @@
 
 .search-text {
   color: pink;
-  margin-right: 5px;
+  
 }
 .search-btn {
   background-color: transparent;
@@ -67,8 +32,8 @@
 }
 .logo{
   position: relative;
-  top: -30px;
-  left: 700px;
+  top: -90px;
+  left: 680px;
 }
 
 .menuregion {
@@ -80,7 +45,7 @@
 .carrito{
 position: relative;
 left: 730px;
-top: -100px;
+top: -105px;
 
 }
 
@@ -88,6 +53,18 @@ top: -100px;
 position: relative;
 
 left: 688px;
-top: -123px;
+top: -130px;
 }
 
+.barra1 {
+  position: relative;
+  top: 30px; 
+}
+.barra2 {
+  position: relative;
+  top: -100px; 
+}
+.carr{
+  position: relative;
+  top: -108px; 
+}
