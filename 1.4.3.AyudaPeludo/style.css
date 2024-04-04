@@ -68,3 +68,9 @@ top: -130px;
   position: relative;
   top: -108px; 
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 6%;
+}
