@@ -33,3 +33,32 @@
 .bloques{
   margin-left: 70px;
 }
+.search-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border: 2px solid pink;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.search-text {
+  color: pink;
+  margin-right: 5px;
+}
+.search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.linea {
+  background:#4C4F91;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
