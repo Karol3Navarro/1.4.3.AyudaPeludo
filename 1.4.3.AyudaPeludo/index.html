@@ -9,31 +9,78 @@
 
 </head>
 <body>
+  <!-- barra arriba --> 
       <p class="linea" style="color: white;">📦 APROVECHA LOS ENVÍOS GRATIS POR COMPRAS SOBRE $34.990 EN STGO</p>
     <!--Barra principal-->
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid d-flex justify-content-center">
-            <a class="navbar-brand" href="#">
-              
-              <img src="Imagen/icono.webp" alt="Bootstrap" width="160" height="90" class="mx-auto">
-            </a>
-            <div>
-            <div class="col text-end">
+    <div>
+      <header>
+          
+          <div class="redes">
+              <ul>
+                  <img src="Imagen/facebook.png" alt="">
+                  <img src="Imagen/instagram.png" alt="">
+              </ul>              
+          </div>
+          <div class="menuregion">
+              <!-- Botón Desplegable -->
+              <div class="botones">
+                  <button class="btn  dropdown-toggle" type="button" style="background-color:#f389bb; color: white;--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"  id="dropdownForm" data-bs-toggle="dropdown" aria-expanded="false">
+                      Seleccionar Comuna y Región
+                  </button>
+                  <div class="dropdown-menu"  style="background-color: #f389bb;color: white;"  aria-labelledby="dropdownForm">
+                      <!-- Formulario -->
+                      <form class="form">
+                          <div class="comuna mb-3">
+                              <label for="comuna" class="form-label">Comuna</label>
+                              <select class="form-select" id="comuna">
+                                  <option selected>Seleccionar Comuna...</option>
+                                  <!--opciones de comuna -->
+                                  <option>Comuna 1</option>
+                                  <option>Comuna 2</option>
+                                  <option>Comuna 3</option>
+                              </select>
+                          </div>
+                          <div class="region mb-3">
+                              <label for="region" class="form-label">Región</label>
+                              <select class="form-select" id="region">
+                                  <option selected>Seleccionar Región...</option>
+                                  <!--  opciones de región -->
+                                  <option>Región 1</option>
+                                  <option>Región 2</option>
+                                  <option>Región 3</option>
+                              </select>
+                          </div>
+                          <button type="submit" class="btn btn-light">Guardar</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <div class="logo" >
+              <img src="Imagen/icono.webp" alt="Bootstrap" width="200" height="130" class="mx-auto">
+          </div>
+          
+              <div class="carrito">
+                  <button class="carrito navbar-toggler d-lg-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                      <img src="Imagen/carrito-de-compras.png" alt="" >
+                  </button>
+              </div>
+             <div class="usuario">
               <button class="carrito navbar-toggler d-lg-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                  <img src="Imagen/carrito-de-compras.png" alt="" width="50" height="50">
-              </button>
+                  <a href=""><img src="Imagen/usuario.png" alt="Botón"></a>
+                </button>
+              </div>
+              <div class="search-container">
+                  <input type="text" class="search-input" placeholder="¿Qué quieres buscar?">
+                  <button class="search-btn">
+                     
+                      <img src="Imagen/lupa.png" alt="Search" width="20" height="20">
+                  </button>
+              </div>
           </div>
-           
-        
-            <div class="search-container">
-              <input type="text" class="search-input" placeholder="¿Qué quieres buscar?">
-              <button class="search-btn">
-                 
-                  <img src="Imagen/lupa.png" alt="Search" width="20" height="20">
-              </button>
+        </nav>
           </div>
-      </div>
-    </nav>
+      </header>
+  
     <!-- -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">

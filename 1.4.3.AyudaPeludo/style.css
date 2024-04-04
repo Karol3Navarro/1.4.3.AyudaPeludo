@@ -35,7 +35,7 @@
 }
 .search-container {
   position: fixed;
-  top: 10px;
+  top: 90px;
   right: 10px;
   border: 2px solid pink;
   border-radius: 5px;
@@ -65,3 +65,29 @@
   
   
 }
+.logo{
+  position: relative;
+  top: -30px;
+  left: 700px;
+}
+
+.menuregion {
+  position: relative; 
+  top: -39px; 
+  left: 101px; 
+  
+}
+.carrito{
+position: relative;
+left: 730px;
+top: -100px;
+
+}
+
+.usuario{
+position: relative;
+
+left: 688px;
+top: -123px;
+}
+
