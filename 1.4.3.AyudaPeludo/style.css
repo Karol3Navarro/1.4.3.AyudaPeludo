@@ -30,8 +30,8 @@
 }
 .logo{
   position: relative;
-  top: -90px;
-  left: 570px;
+  
+  top: -100px; 
 }
 
 .menuregion {
@@ -71,4 +71,12 @@ top: -130px;
   display: flex;
   justify-content: center;
   margin: 6%;
+}
+.div{
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+}
+.div2{
+  margin-left: 90px;
 }
