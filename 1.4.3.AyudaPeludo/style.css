@@ -83,8 +83,16 @@ top: -130px;
 .img4{
   display: flex;
   justify-content: center;
-  margin: 6%;
+  margin: 3%;
   float: left;
   margin-right: 6%;  
   
+  
+}
+
+.img5 {
+  margin: 20px;
+
+  
+
 }
