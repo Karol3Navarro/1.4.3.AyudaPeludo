@@ -81,17 +81,20 @@ top: -130px;
   margin-left: 90px;
 }
 .img4{
-  display: flex;
-  justify-content: center;
-  margin: 3%;
-  float: left;
-  margin-right: 6%;  
-  
+  margin: 18px;
+  display: inline-block
   
 }
-
+.image-container2{
+  text-align: center;
+}
+.image-container {
+ 
+  text-align: center;
+}
 .img5 {
   margin: 20px;
+  display: inline-block
 
   
 
