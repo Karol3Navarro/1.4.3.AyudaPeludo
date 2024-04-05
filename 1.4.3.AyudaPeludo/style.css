@@ -61,6 +61,7 @@ top: -130px;
 .barra2 {
   position: relative;
   top: -100px; 
+  
 }
 .carr{
   position: relative;
@@ -98,4 +99,8 @@ top: -130px;
 
   
 
+}
+.img6{
+  margin: 20px;
+  display: inline-block;
 }
