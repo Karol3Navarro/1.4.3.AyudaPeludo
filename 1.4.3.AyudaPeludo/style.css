@@ -80,3 +80,11 @@ top: -130px;
 .div2{
   margin-left: 90px;
 }
+.img4{
+  display: flex;
+  justify-content: center;
+  margin: 6%;
+  float: left;
+  margin-right: 6%;  
+  
+}
