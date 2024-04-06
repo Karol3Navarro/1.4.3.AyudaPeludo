@@ -138,19 +138,40 @@
       </div>
     </nav>
     </div>
-    <!--Barra de Carrito-->
+    <!--Carrito-->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito</h5>
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <p>Tu carrito esta vacio</p>
+          <p>Tu carrito está vacío</p>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button">Finalizar compra</button>
-        
+          <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Finalizar compra
+          </button>
       </div>
-    </div> 
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Confirmar compra</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  ¿Estás seguro de que deseas finalizar tu compra?
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  <a href="#"><button type="button"  class="btn btn-primary">Confirmar</button></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  
     
 
     <!--Carrusel de imagenes-->
