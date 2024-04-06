@@ -105,3 +105,11 @@ top: -130px;
   margin: 20px;
   display: inline-block;
 }
+.finalizarCompraBtn {
+  
+
+  padding: 10px 20px;
+  
+  border-radius: 4px;
+  cursor: pointer;
+}
